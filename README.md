@@ -4,3 +4,5 @@
 在 private UCrop advancedConfig(@NonNull UCrop uCrop) 方法中增加以下配置
 options.setUCropOverImageDrawable(R.drawable.camera_idcard_front);即可在裁剪时显示身份证人脸识别框
 R.drawable.camera_idcard_front即为身份证人脸框
+
+目前仅支持Android，ios端不支持
