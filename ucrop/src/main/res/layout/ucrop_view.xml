@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <!-- Padding for both views can be different -->
+
+    <com.yalantis.ucrop.view.GestureCropImageView
+        android:id="@+id/image_view_crop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/ucrop_padding_crop_frame"/>
+
+    <com.yalantis.ucrop.view.OverlayView
+        android:id="@+id/view_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/ucrop_padding_crop_frame"/>
+    <ImageView
+        android:id="@+id/crop_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/ucrop_overlay_image_margin"
+        android:layout_marginRight="@dimen/ucrop_overlay_image_margin"
+        android:padding="@dimen/ucrop_padding_crop_frame"
+        android:background="@drawable/camera_idcard_front"
+        />
+
+</merge>
