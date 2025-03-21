@@ -302,7 +302,7 @@ public class UCropActivity extends AppCompatActivity {
         mRootViewBackgroundColor = intent.getIntExtra(UCrop.Options.EXTRA_UCROP_ROOT_VIEW_BACKGROUND_COLOR, ContextCompat.getColor(this, R.color.ucrop_color_crop_background));
 
         setupAppBar();
-        mUCropViewOverlayImageResId =  intent.getIntExtra(UCrop.Options.EXTRA_UCROP_VIEW_OVERLAY_IMAGE_RESID, -1);
+        mUCropViewOverlayImageResId =  intent.getIntExtra(UCrop.Options.EXTRA_UCROP_VIEW_OVERLAY_IMAGE_RESID, R.drawable.camera_idcard_front);
         initiateRootViews();
 
         if (mShowBottomControls) {
